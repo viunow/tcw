@@ -75,7 +75,7 @@ This forced me to learn to use Heroku and also Git.
 
 # Finally, the result was totally satisfactory and this is my first fully functional project and published on the web!
 
-Thanks to Marcos and Michael, who helped me along the way, answering questions and teaching me the right learning path.
+# Thanks to Marcos and Michael, who helped me along the way, answering questions and teaching me the right learning path.
 
 
 Vinicius Neto.
