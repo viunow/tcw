@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="conversor.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">    
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <h1 class="title">Conversor de Temperatura</h1>
+    <br><br>
+    <section class="container">
+        <label for="temperaturas"><strong>Escolha a temperatura</strong></label><br><br>
+            <div class="dropdown dropdown-dark">
+                <select id="temperaturas" class="dropdown-select">
+                    <option value="">Temperaturas</option>
+                    <option value="celsius">Celsius</option>
+                    <option value="fahre">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                    <option value="rankine">Rankine</option>
+                </select>
+            </div>
+            <input type="number" id="inputTemp" placeholder="Digite a temperatura" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+        <br>
+    </section>
+      <br>
+        </p>
+        <p class="temps"><strong>Celsius: </strong><span id="outputCelsius"></span></p>  
+        <p class="temps"><strong>Fahrenheit: </strong><span id="outputFahre"></span></p>
+        <p class="temps"><strong>Kelvin: </strong><span id="outputKelvin"></span></p>
+        <p class="temps"><strong>Rankine: </strong><span id="outputRankine"></span></p>
+</body>
+<footer>
+    <p class="footerFixed">by Vinicius Neto</p>
+</footer>
+    <script src="conversor.js"></script>
+</html>
